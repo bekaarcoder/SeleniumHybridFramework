@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HybridFrameworkTestNG" duration-ms="95810" started-at="2020-01-13T04:08:23Z" finished-at="2020-01-13T04:09:59Z">
+    <groups>
+    </groups>
+    <test name="BankingApp Test" duration-ms="95810" started-at="2020-01-13T04:08:23Z" finished-at="2020-01-13T04:09:59Z">
+      <class name="com.hybridframework.testCases.TC_LoginDDT_01">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hybridframework.testCases.TC_LoginDDT_01@3d24753a]" name="setup" is-config="true" duration-ms="17495" started-at="2020-01-13T04:08:23Z" finished-at="2020-01-13T04:08:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTestDTT(java.lang.String, java.lang.String)[pri:0, instance:com.hybridframework.testCases.TC_LoginDDT_01@3d24753a]" name="loginTestDTT" duration-ms="34235" started-at="2020-01-13T04:08:42Z" data-provider="LoginData" finished-at="2020-01-13T04:09:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr240363]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ehYnAbU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestDTT -->
+        <test-method status="PASS" signature="loginTestDTT(java.lang.String, java.lang.String)[pri:0, instance:com.hybridframework.testCases.TC_LoginDDT_01@3d24753a]" name="loginTestDTT" duration-ms="11318" started-at="2020-01-13T04:09:16Z" data-provider="LoginData" finished-at="2020-01-13T04:09:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr240363]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ehYnAbU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestDTT -->
+        <test-method status="PASS" signature="loginTestDTT(java.lang.String, java.lang.String)[pri:0, instance:com.hybridframework.testCases.TC_LoginDDT_01@3d24753a]" name="loginTestDTT" duration-ms="16974" started-at="2020-01-13T04:09:27Z" data-provider="LoginData" finished-at="2020-01-13T04:09:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr240363]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ehYnAbU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestDTT -->
+        <test-method status="PASS" signature="loginTestDTT(java.lang.String, java.lang.String)[pri:0, instance:com.hybridframework.testCases.TC_LoginDDT_01@3d24753a]" name="loginTestDTT" duration-ms="14135" started-at="2020-01-13T04:09:44Z" data-provider="LoginData" finished-at="2020-01-13T04:09:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr240363]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ehYnAbU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestDTT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hybridframework.testCases.TC_LoginDDT_01@3d24753a]" name="tearDown" is-config="true" duration-ms="671" started-at="2020-01-13T04:09:58Z" finished-at="2020-01-13T04:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hybridframework.testCases.TC_LoginDDT_01 -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- HybridFrameworkTestNG -->
+</testng-results>

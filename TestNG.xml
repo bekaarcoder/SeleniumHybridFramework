@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HybridFrameworkTestNG">
+	<listeners>
+		<listener class-name="com.hybridframework.utilities.Reporting" />
+	</listeners>
+	<test name="BankingApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!-- <class name="com.hybridframework.testCases.TC_LoginTest_01" /> -->
+			<class name="com.hybridframework.testCases.TC_LoginDDT_01" />
+		</classes>
+	</test>
+</suite>
